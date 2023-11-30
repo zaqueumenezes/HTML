@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+<h1>Outras Formatações</h1>
+<h2>Códigos Fontes / Pré-formatação</h2>
+<!-- A tag code é para deiar o espaçamento todos por iguais, deixar a fonte mono espaçada -->
+<p><code>O comando document.getElementByID('teste')</code> é escrito em linguagem JavaScript.</p>
+<!-- A tag PRE organização a identação do texto -->
+<pre>
+    <code>
+num = int(input('Digite um úmero')) if num % 2 == 0:
+print(f'0 número {num} é PAR')
+else:
+primeiro(f'0 número {num} é Ímpar')
+print('Fim do programa')
+    </code>
+</pre>
+<h2>Citações</h2>
+<!-- A tag Q dar um sentido de citação para citações importantes e que não tenha quebra de linha -->
+<p>Como diaria um pai de um amigo: <q>o computador é um burro muito rapido</q></p>
+<h2>Citações completas</h2>
+<p>Segundo Suely Alves de Toledo, em seu livro HTML guia de orientações e desenvolvimento de sites:</p>
+<!-- A ta g BLOCKQUOTE serve para citações completas para organizar as mesmas, mesmo havendo quebra linha e disonibiliza o acrscimo de ma outra tag CITE onde na qual vc  pode citar a url do autor da citação -->
+<blockquote cite="https://www.google.com.br/books/edition/Guia_de_Orienta%C3%A7%C3%A3o_e_Desenvolvimento_d/1YuwDwAAQBAJ?hl=pt-BR&gbpv=0">
+    Antes de começar a criar um site, é preciso planejarsua estrutura (home page e paginas adjacentes), sendo definido de forma clara e coerente a sequência das informações que deseja apresentar. A única regra de vinculação de paginas é a lógica do assunto.
+</blockquote>
+<!-- A tag ABBR serve para dar os significados as abreviações existentes nos textos -->
+<h2>Abreviações</h2>
+<p>Estou estudandi <abbr title="Hyper Text Markup Language">HTML</abbr> E <abbr title="Cascading Style Sheets">CSS</abbr> estou amando</p>
+<!-- A tag BDO serve para escolhar se o texto começ da esquerda pra direita ouo investido da direita para a esquerda. -->
+<h2>Text invertido</h2>
+<p><bdo dir="rtl">Eu estou indo para casa agora, até mais tarde!</bdo></p>    
+</body>
+</html>
