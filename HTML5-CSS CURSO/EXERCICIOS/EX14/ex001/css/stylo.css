@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero {
+    background-image: url(/imagens/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 500px;
+    padding: 1px;
+}
+
+.hero nav ul {
+    margin: 20px 50px 0 0 ;
+    text-align: right;
+}
+
+.hero li {
+    display: inline-block;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero a {
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero a:hover {
+    background-color: black;
+    opacity: 1;
+    transition: 3s;
+    color: cyan;
+}
+
+
+.hero-conteudo {
+    text-align: center;
+    margin-top: 150px;
+    color: bisque;
+}
+
+.hero-conteudo h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+    font-size: 30pt;
+}
+
+.hero-conteudo p {
+    background-color: rgba(210, 105, 30, .8);
+    display: inline-block;
+    padding: 10px;
+    font-size: 16pt;
+    border-radius: 7pt;
+}
+
+.caixa {
+    margin: auto;
+    width: 90%;
+    max-width: 860px;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+article h2 {
+    background-color: aqua;
+    padding: 10px;
+    margin: 0;
+}
+
+article p {
+    text-indent: 15pt;
+    text-align: justify;
+    display: inline-block;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: cyan;
+    font-weight: bolder;
+}
